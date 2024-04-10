@@ -8,9 +8,9 @@ public static void main(String args[])
 {
 greeting.greetings1();
 }
-//String str = greeting.greetings2();
-//System.out.println(str);
-System.out.println(greeting.greetings2());
+String str = greeting.greetings2();
+System.out.println(str);
+//System.out.println(greeting.greetings2());
 greeting.greetings3("Rahul");
 String sr = greeting.greetings4("Gaurav");
 System.out.println(sr);
